@@ -1,0 +1,6 @@
+ALL:
+	gcc -o Trabajo_Final_PI ByTFront.c ByTBack.c -lm
+wall:
+	gcc -o Trabajo_Final_PI ByTFront.c ByTBack.c -Wall -lm
+clean:
+	rm Trabajo_Final_PI
